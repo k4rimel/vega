@@ -45,7 +45,7 @@ Route::post('/signin', function()
 {
 	$credentials = Input::only('username', 'password');
 	if (Auth::attempt($credentials)) {
-		return Redirect::intended('/admin');
+		return Redirect::intended('/');
 	}
 	return Redirect::to('signin');
 });
