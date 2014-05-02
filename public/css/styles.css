@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'roboto';
+	src: url('font/Roboto-Light.ttf');
+}
+@font-face{
+	font-family: 'robotoThin';
+	src: url('font/Roboto-Thin.ttf');
+}
+body {
+	/*background-color: #CCC;*/
+	padding: 0;
+	margin: 0;
+	background-color: #AEE05E;
+	font-family : 'roboto';
+}
+h1 {
+	font-family : 'robotoThin';
+	text-align: center;
+	color: #fff;
+	font-size: 4em;
+}
+div.header {
+	padding-bottom: 1em;
+	/*background-color: #fff;*/
+}
+.container {
+	padding-top: 1em;
+}
+label.loginLbl {
+	font-size: 1.1em;
+}
+.formContainer {
+	padding-top:1em;
+	background-color: #fff;
+	border-radius: 1em;
+	box-shadow: 5px 5px 10px #888;
+}
+a.forgotPwd {
+	margin-bottom: 0.5em; 
+	display: block;
+	color:#007495;
+}
+#formLegend {
+	padding-bottom: 1.5em;
+	font-size: 2.0em;
+	color:#666;
+}
+.cartIcon {
+	font-size: 2em;
+	color:#AEE05E;
+} 
+.top {
+	height: 40%;
+	/*box-shadow: 0px 5px 10px #222;*/
+/*	background: -webkit-radial-gradient(closest-corner,
+				rgba(16,47,70,0) 60%,
+				rgba(16,47,70,0.2)),
+	-webkit-linear-gradient(108deg,#e5e9bf 10%,#333333 90%);*/
+	background-color: #5BB2CA;
+}
+.bot {
+	background-color: #AEE05E;
+}
+.signUpIcons {
+	font-size: 2em;
+	color: #999;
+}
+.rememberMe {
+	color : #aaa;
+	font-size: 0.7em;
+}
+.btnLogin {
+	margin-top:1em;
+	background-color: #5BB2CA;
+}
+.btnLogin:hover {
+	background-color: #007495;
+}
